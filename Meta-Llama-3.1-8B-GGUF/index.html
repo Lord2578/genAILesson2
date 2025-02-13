@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutureProductivity</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f7f7f7;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: linear-gradient(to bottom, #4CAF50, #3e8e41);
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px;
+        }
+
+        .heading {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .subheading {
+            font-size: 24px;
+            color: #fff;
+            opacity: 0.8;
+        }
+
+        .cta {
+            background-color: #4CAF50;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="heading">Unlock Your Full Potential</h1>
+            <p class="subheading">Experience the future of productivity with AI-powered efficiency and simplicity.</p>
+            <button class="cta" id="get-started-btn">Get Started Today!</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2 class="feature-heading">Unlock Your Full Potential</h2>
+        <ul>
+            <li>
+                <i class="material-icons feature-icon">schedule</i>
+                <h3>Automated Scheduling</h3>
+                <p>Effortlessly schedule tasks and appointments with AI-powered automation.</p>
+            </li>
+            <li>
+                <i class="material-icons feature-icon">track_changes</i>
+                <h3>Tactical Task Management</h3>
+                <p>Break down complex projects into actionable, manageable tasks with our task management system.</p>
+            </li>
+            <li>
+                <i class="material-icons feature-icon">visibility</i>
+                <h3>Real-Time Insights</h3>
+                <p>Gain valuable insights into your productivity and time usage with real-time analytics.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <button class="cta" id="sign-up-btn">Sign Up Now</button>
+            <span>Discover the future of productivity today!</span>
+        </div>
+    </section>
+
+    <!-- Script Tags -->
+    <script src="https://cdn.jsdelivr.net/npm/@material-ui/core@4.12.0/umd/material-ui.production.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get the CTA button elements
+            const getStartedBtn = document.getElementById('get-started-btn');
+            const signUpBtn = document.getElementById('sign-up-btn');
+
+            // Add event listener to CTA buttons
+            getStartedBtn.addEventListener('click', function () {
+                // Simulate a form submission or other action on click
+                console.log('Get Started button clicked!');
+            });
+
+            signUpBtn.addEventListener('click', function () {
+                // Simulate a sign up process or other action on click
+                console.log('Sign Up button clicked!');
+            });
+        });
+    </script>
+</body>
+</html>
