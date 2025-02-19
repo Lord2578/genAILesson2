@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Productivity App</title>
+    <style>
+        /* CSS styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #009688;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        .feature-card, .pricing-plan {
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            padding: 1.5rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card img, .pricing-plan img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 0.5rem;
+        }
+
+        .pricing-plan {
+            margin-bottom: 2rem;
+        }
+
+        footer {
+            background-color: #009688;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Experience the Future of Productivity</h1>
+            <p>Streamline your workflow and boost your efficiency with our cutting-edge productivity app.</p>
+            <button onclick="signup()">Sign Up Now</button>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <div class="feature-card">
+                <img src="task-management-icon.svg" alt="Task Management Icon">
+                <h3>Task Management</h3>
+                <p>Effortlessly manage your tasks and projects with our intuitive task management system.</p>
+            </div>
+            <div class="feature-card">
+                <img src="time-tracking-icon.svg" alt="Time Tracking Icon">
+                <h3>Time Tracking</h3>
+                <p>Gain valuable insights into your work habits and optimize your time with precise time tracking.</p>
+            </div>
+            <div class="feature-card">
+                <img src="collaboration-icon.svg" alt="Collaboration Icon">
+                <h3>Collaboration</h3>
+                <p>Work seamlessly with your team and stay connected with real-time collaboration features.</p>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <div class="pricing-plan">
+                <h3>Basic</h3>
+                <p>$9.99/month</p>
+                <ul>
+                    <li>5 GB Storage</li>
+                    <li>1 Project</li>
+                    <li>10 Tasks</li>
+                </ul>
+                <button>Sign Up</button>
+            </div>
+            <div class="pricing-plan">
+                <h3>Pro</h3>
+                <p>$19.99/month</p>
+                <ul>
+                    <li>25 GB Storage</li>
+                    <li>5 Projects</li>
+                    <li>50 Tasks</li>
+                </ul>
+                <button>Sign Up</button>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Futuristic Productivity App. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript code
+        function signup() {
+            alert("Signing up...");
+            // Add your signup logic here
+        }
+    </script>
+
+</body>
+</html>
